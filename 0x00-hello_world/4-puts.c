@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - C Program that prints a given line followed by a new line
- *
- * Return: zero on success
- *
+ * main - A program that prints a puts line
+ * Return: 0 (if successful)
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
+
