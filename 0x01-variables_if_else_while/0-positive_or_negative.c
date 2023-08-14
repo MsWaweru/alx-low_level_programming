@@ -3,18 +3,22 @@
 #include <stdio.h>
 
 /**
- * main - A program that assigns random number to variable n
- * Return:0 (if successful)
+ * main - Point of entry
+ *
+ * Return:0 (if succesful)
  */
 
 int main(void)
 {
+	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	while (n > 0)
+	if (n > 0)
 		printf("%d is positive\n", n);
-	while (n = 0)
+	else if (n == 0)
 		printf("%d is zero\n", n);
-	while printf("%d is negative\n", n);
+	else
+		printf("%d is negative\n", n);
 	return (0);
 }
