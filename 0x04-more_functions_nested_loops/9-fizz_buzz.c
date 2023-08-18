@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - prints digits 1 to 100 and a new line follows
  * for mutiples of 3 print Fizz
